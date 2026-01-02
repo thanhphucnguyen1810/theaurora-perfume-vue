@@ -6,10 +6,12 @@
     <Products />
     <Categories />
     <Offers />
+    <About />
   </div>
 </template>
 
 <script setup>
+import About from './components/About.vue'
 import Categories from './components/Categories.vue'
 import Header from './components/Header.vue'
 import Hero from './components/Hero.vue'
